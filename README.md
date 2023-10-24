@@ -1,2 +1,2 @@
-# personal-portfolio
-A personal portfolio website 
+# Personal Portfolio Website
+A personal portfolio website showcasing case studies
