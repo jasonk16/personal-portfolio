@@ -6,6 +6,7 @@
 
 export { default as AccordionList } from "./AccordionList";
 export { default as CTAButton } from "./CTAButton";
+export { default as Contact } from "./Contact";
 export { default as ContactForm } from "./ContactForm";
 export { default as Footer } from "./Footer";
 export { default as HoverCard } from "./HoverCard";

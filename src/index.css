@@ -1,72 +1,62 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+body {
+  margin: 0px;
+  background-color: var(--amplify-colors-neutral-20)
+}
+
+/* Override amplify ui text style */
+.amplify-heading--1,
+.amplify-heading--2 {
+  font-family: "Playfair Display Variable", sans-serif;
+  color: var(--amplify-colors-neutral-90);
+}
+
+.amplify-heading--3,
+.amplify-heading--4,
+.amplify-heading--5,
+.amplify-heading--6,
+.amplify-text {
+  font-family: "Poppins", sans-serif;
+  color: var(--amplify-colors-neutral-90);
+}
+
+.amplify-heading--1 {
+  font-weight: 700;
+  line-height: 140%; /* 78.4px */
+  letter-spacing: 1.12px;
+}
+
+.amplify-heading--2 {
+  font-weight: 600;
+  line-height: 140%; /* 56px */
+  letter-spacing: 0.8px;
+}
+
+.amplify-heading--3 {
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.64px;
+}
+
+.amplify-heading--4 {
+  font-weight: 500;
+  line-height: 150%; /* 42px */
+  letter-spacing: 0.56px;
+}
+
+.amplify-heading--5 {
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+
+.amplify-heading--6 {
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.4px;
+}
+
+.amplify-text {
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-body {
-  font-family: 'Poppins', sans-serif;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: 0.54px;
 }
